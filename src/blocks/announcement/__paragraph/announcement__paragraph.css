@@ -2,7 +2,7 @@
   background-color: hsl(0, 0%, 100%);
   color: #FE4600;
   padding: 13px 26px 20px 24px;
-  border-bottom-right-radius: 20px;
+  border-bottom-right-radius: 28px;
   font-family: 'Loos', sans-serif;
   font-size: 21px;
   font-style: normal;
@@ -10,4 +10,16 @@
   line-height: normal;
   margin-right: 195px;
   width: 467px;
+  position: relative;
+}
+
+.announcement__paragraph::after {
+  content: '';
+  width: 20px;
+  height: 18px;
+  background:#FE4600;;
+  clip-path: polygon(100% 100%, 100% 0, 0 100%);
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }

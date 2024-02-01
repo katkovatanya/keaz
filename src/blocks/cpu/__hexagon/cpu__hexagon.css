@@ -1,10 +1,34 @@
 .cpu__hexagon {
   width: 658px;
   height: 744px;
-  /* clip-path: polygon(0 0, 51% 0, 100% 43%, 100% 100%, 41% 100%, 0 63%);
-  background-image: linear-gradient(to bottom right, #E7ECF0, rgba(10, 10, 240, 0.13)); */
   background-image: url(../../../images/cpu-background.png);
-  background-position: left;
+  background-position: top;
   background-repeat: no-repeat;
   z-index: -1;
+  position: relative;
+}
+
+.cpu__hexagon::after {
+  content: '';
+  position: absolute;
+  bottom: -100px;
+  right: -50px;
+  height: 653px;
+  width: 653px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(10, 10, 240, 0.13) 0%, rgba(255, 0, 0, 0) 77%);
+  overflow: visible;
+}
+
+.cpu__hexagon::before {
+  content: '';
+  position: absolute;
+  background-image: url(../../../images/Union.png);
+  bottom: -200px;
+  right: -100px;
+  height: 653px;
+  width: 653px;
+  background-repeat: no-repeat;
+  background-position: right;
+  overflow: visible;
 }
