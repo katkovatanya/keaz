@@ -1,0 +1,17 @@
+@font-face{
+  src: url('./Play/Play-Bold.ttf') format('truetype');
+  font-family: 'Play';
+  font-weight: 700;
+}
+
+@font-face{
+  src: url('./Play/Play-Regular.ttf') format('truetype');
+  font-family: 'Play';
+  font-weight: 400;
+}
+
+@font-face{
+  src: url('./Loos/Loos\ Latin\,\ Cyrillic\ Normal-Regular-Web.woff') format('woff');
+  font-family: 'Loos';
+  font-weight: 400;
+}

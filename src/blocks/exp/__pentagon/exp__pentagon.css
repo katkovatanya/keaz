@@ -1,0 +1,44 @@
+.exp__pentagon {
+  /* width: 1920px;
+  height: 880px;
+  clip-path: polygon(33% 19%, 96% 41%, 100% 90%, 18% 76%, 6% 38%);
+  background-image: radial-gradient( rgba(10, 10, 240, 0.13), #E7ECF0);
+  background-image: url(../../../images/Vector.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  z-index: -1;
+  border-radius: 20px; */
+  position: relative;
+  width: 600px;
+  height: 600px;
+  background-color: #EEF1F2;
+  transform: rotate(50deg);
+  border-radius: 50px;
+  margin-top: 65px;
+  margin-left: 72px;
+}
+
+.exp__pentagon::before {
+  content: '';
+  position: absolute;
+  left: 70px;
+  top: 87px;
+  width: inherit;
+  height: inherit;
+  background-color: inherit;
+  transform: rotate(106deg);
+  border-radius: 50px;
+}
+
+.exp__pentagon::after {
+  content: '';
+  position: absolute;
+  width: 2000px;
+  height: 911px;
+  background-color: inherit;
+  transform: rotate(312deg) skew(349deg);
+  border-radius: 50px;
+  left: -67px;
+  top: -796px;
+  overflow: hidden;
+}

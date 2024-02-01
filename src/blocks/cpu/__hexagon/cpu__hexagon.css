@@ -1,0 +1,10 @@
+.cpu__hexagon {
+  width: 658px;
+  height: 744px;
+  /* clip-path: polygon(0 0, 51% 0, 100% 43%, 100% 100%, 41% 100%, 0 63%);
+  background-image: linear-gradient(to bottom right, #E7ECF0, rgba(10, 10, 240, 0.13)); */
+  background-image: url(../../../images/cpu-background.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  z-index: -1;
+}

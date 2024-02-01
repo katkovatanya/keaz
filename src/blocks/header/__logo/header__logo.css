@@ -1,0 +1,5 @@
+.header__logo {
+  max-width: 183px;
+  max-height: 34px;
+  grid-area: logo;
+}

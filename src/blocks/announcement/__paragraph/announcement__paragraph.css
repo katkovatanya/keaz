@@ -1,0 +1,13 @@
+.announcement__paragraph {
+  background-color: hsl(0, 0%, 100%);
+  color: #FE4600;
+  padding: 13px 26px 20px 24px;
+  border-bottom-right-radius: 20px;
+  font-family: 'Loos', sans-serif;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 195px;
+  width: 467px;
+}
