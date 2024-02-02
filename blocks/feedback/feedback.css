@@ -4,4 +4,5 @@
   display: grid;
   grid-template-columns: 794px 644px;
   gap: 121px;
+  overflow-x: hidden;
 }
