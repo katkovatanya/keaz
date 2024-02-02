@@ -1,0 +1,6 @@
+.footer__social-links {
+  display: flex;
+  list-style-type: none;
+  column-gap: 25px;
+  padding: 0;
+}

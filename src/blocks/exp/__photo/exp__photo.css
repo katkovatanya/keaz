@@ -1,0 +1,29 @@
+.exp__photo {
+  position: relative;
+  z-index: 2;
+}
+
+.exp__photo::after {
+  content: '';
+  position: absolute;
+  top: 100px;
+  right: 50px;
+  height: 653px;
+  width: 653px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(10, 10, 240, 1) 0%, rgba(255, 0, 0, 0) 77%);
+  z-index: 0;
+}
+
+.exp__photo::before {
+  content: '';
+  position: absolute;
+  background-image: url(../../../images/Union.png);
+  top: 100px;
+  right: 50px;
+  height: 653px;
+  width: 653px;
+  background-repeat: no-repeat;
+  background-position: right;
+  z-index: 1;
+}

@@ -1,0 +1,9 @@
+.announcement__text {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  padding: 90px 0 90px;
+  width: 55.8%;
+  height: 457px;
+  align-items: flex-end;
+}

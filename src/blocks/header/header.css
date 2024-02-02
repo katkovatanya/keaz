@@ -1,0 +1,12 @@
+.header {
+  display: grid;
+  font-family: Verdana, sans-serif;
+  grid-template-columns: 183px 352px 534px;
+  grid-template-areas:
+  "logo nav contacts";
+  padding: 19px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+  place-items: center;
+  grid-gap: 5.4%;
+}

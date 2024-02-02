@@ -1,0 +1,12 @@
+.documentation__button {
+  font-family: "Play", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  border: none;
+  padding: 14px 30px 18px 30px;
+  color: #FF5000;
+  background-color: #FFE2D4;
+  white-space: nowrap;
+  cursor: pointer;
+}

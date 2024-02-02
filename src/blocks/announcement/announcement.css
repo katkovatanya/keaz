@@ -1,0 +1,8 @@
+.announcement {
+  width: 100%;
+  max-width: 1920px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  background-color: #FE4600;
+}

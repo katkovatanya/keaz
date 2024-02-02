@@ -1,0 +1,8 @@
+.com__details {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  grid-auto-rows: minmax(23px, auto);
+  margin: 41px 0 0;
+  padding: 0;
+}

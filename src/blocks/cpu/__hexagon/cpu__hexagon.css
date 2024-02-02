@@ -1,0 +1,33 @@
+.cpu__hexagon {
+  width: 658px;
+  height: 744px;
+  background-image: url(../../../images/cpu-background.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  z-index: -1;
+  position: relative;
+  overflow: hidden;
+}
+
+.cpu__hexagon::after {
+  content: '';
+  position: absolute;
+  bottom: -100px;
+  right: -50px;
+  height: 653px;
+  width: 653px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(10, 10, 240, 0.13) 0%, rgba(255, 0, 0, 0) 77%);
+}
+
+.cpu__hexagon::before {
+  content: '';
+  position: absolute;
+  background-image: url(../../../images/Union.png);
+  bottom: -200px;
+  right: -100px;
+  height: 653px;
+  width: 653px;
+  background-repeat: no-repeat;
+  background-position: right;
+}

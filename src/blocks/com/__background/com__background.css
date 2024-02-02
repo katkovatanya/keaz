@@ -1,0 +1,33 @@
+.com__background {
+  position: relative;
+  background-image: url(../../../images/background-com.png);
+  height: 555px;
+  width: 560px;
+  background-repeat: no-repeat;
+  background-position: left;
+  margin-top: 200px;
+  overflow: hidden;
+}
+
+.com__background::before {
+  content: '';
+  position: absolute;
+  top: -150px;
+  left: 200px;
+  height: 653px;
+  width: 653px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(10, 10, 240, 0.13) 47%, rgba(255, 0, 0, 0) 72%);
+}
+
+.com__background::after {
+  content: '';
+  position: absolute;
+  background-image: url(../../../images/Union.png);
+  top: -150px;
+  left: 200px;
+  height: 653px;
+  width: 653px;
+  background-repeat: no-repeat;
+  background-position: left;
+}

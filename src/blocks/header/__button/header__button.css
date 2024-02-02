@@ -1,0 +1,13 @@
+.header__button {
+  border: none;
+  padding: 14px 30px 18px 30px;
+  color: #FF5000;
+  font-family: "Play", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background-color: #FFE2D4;
+  white-space: nowrap;
+  cursor: pointer;
+}

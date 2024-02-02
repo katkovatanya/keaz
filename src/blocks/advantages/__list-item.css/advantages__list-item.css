@@ -1,0 +1,19 @@
+.advantages__list-item {
+  background: rgb(238, 241, 242);
+  width: 813px;
+  padding: 35px 40px 39px;
+  margin: 20px 0 0;
+  position: relative;
+  border-bottom-right-radius: 28px;
+}
+
+.advantages__list-item::after {
+  content: '';
+  width: 20px;
+  height: 18px;
+  background:#fff;
+  clip-path: polygon(100% 100%, 100% 0, 0 100%);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
