@@ -1,0 +1,8 @@
+.advantages__columns {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 0 362px;
+  display: grid;
+  grid-template-columns: repeat(2, 590px);
+  gap: 18px;
+}

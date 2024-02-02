@@ -1,0 +1,22 @@
+.feedback__textarea {
+  width: 370px;
+  height: 96px;
+  border: none;
+  background: rgb(238, 241, 242);
+  padding: 17px;
+  resize: none;
+  grid-area: question;
+  color: rgb(2, 31, 73);
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.feedback__textarea::placeholder {
+  color: rgb(2, 31, 73);
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140%;
+}

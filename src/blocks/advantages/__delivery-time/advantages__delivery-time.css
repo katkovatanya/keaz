@@ -1,0 +1,19 @@
+.advantages__delivery-time {
+  background-color: rgb(255, 70, 0);
+  padding: 51px 40px 63px 360px;
+  width: 1160px;
+  position: relative;
+  border-bottom-right-radius: 28px;
+  color: rgb(255, 255, 255);
+}
+
+.advantages__delivery-time::after {
+  content: '';
+  width: 20px;
+  height: 18px;
+  background:#fff;
+  clip-path: polygon(100% 100%, 100% 0, 0 100%);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}

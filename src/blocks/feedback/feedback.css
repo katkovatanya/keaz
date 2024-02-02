@@ -1,0 +1,7 @@
+.feedback {
+  margin: 155px 0 0 360px;
+  font-family: 'Loos', sans-serif;
+  display: grid;
+  grid-template-columns: 794px 644px;
+  gap: 121px;
+}

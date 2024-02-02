@@ -1,0 +1,20 @@
+.feedback__tel-field {
+  width: 370px;
+  border: none;
+  background: rgb(238, 241, 242);
+  padding: 17px;
+  grid-area: tel;
+  color: rgb(2, 31, 73);
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.feedback__tel-field::placeholder {
+  color: rgb(2, 31, 73);
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140%;
+}

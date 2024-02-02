@@ -1,0 +1,4 @@
+.feedback__email-block {
+  grid-area: email;
+  position: relative;
+}

@@ -1,0 +1,6 @@
+.feedback__background {
+  background-image: url(../../../images/background-feedback.png);
+  width: 644px;
+  height: 633px;
+  overflow: hidden;
+}
