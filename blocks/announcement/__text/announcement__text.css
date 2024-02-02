@@ -11,6 +11,8 @@
 
 @media screen and (max-width: 1750px) {
   .announcement__text {
-
+    padding: 20px 20px 30px;
+    align-items: flex-start;
+    min-height: 400px;
   }
 }

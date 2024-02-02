@@ -17,9 +17,16 @@
   content: '';
   width: 20px;
   height: 18px;
-  background:#FE4600;;
+  background: #FE4600;
+  ;
   clip-path: polygon(100% 100%, 100% 0, 0 100%);
   position: absolute;
   bottom: 0;
   right: 0;
+}
+
+@media screen and (max-width: 1750px) {
+  .announcement__paragraph {
+    margin: 45px 0 0;
+  }
 }

@@ -7,5 +7,7 @@
 @media screen and (max-width: 1750px) {
   .announcement__photo {
     margin: 44px auto 0;
+    max-width: 657px;
+    max-height: 316px;
   }
 }
