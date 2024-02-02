@@ -1,3 +1,3 @@
 # keaz
 
-[посмотреть] (https://katkovatanya.github.io/keaz/)
+[посмотреть](https://katkovatanya.github.io/keaz/)
