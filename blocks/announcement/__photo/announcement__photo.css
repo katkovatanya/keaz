@@ -3,3 +3,9 @@
   height: 420px;
   margin: 161px 85px 52px -118px;
 }
+
+@media screen and (max-width: 1750px) {
+  .announcement__photo {
+    margin: 44px auto 0;
+  }
+}

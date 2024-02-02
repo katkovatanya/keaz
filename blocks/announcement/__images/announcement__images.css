@@ -3,4 +3,14 @@
   margin: 0;
   right: 0;
   width: 848px;
+  grid-area: image;
+}
+
+@media screen and (max-width: 1750px) {
+  .announcement__images {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
 }

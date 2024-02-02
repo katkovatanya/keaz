@@ -3,4 +3,7 @@
   font-family: 'Loos', sans-serif;
   color: #021F49;
   min-height: 1009px;
+  margin: 0, auto;
+  display: flex;
+  justify-content: flex-start;
 }
